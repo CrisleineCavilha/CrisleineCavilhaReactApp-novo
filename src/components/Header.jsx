@@ -26,12 +26,12 @@ export default function Header() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/" className="nav-link">
-                  Página Inicial
+                  <strong>Página Inicial</strong>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contato" className="nav-link">
-                  Cardápio
+                <Link to="/cardapio" className="nav-link">
+                <strong>Cardápio</strong>
                 </Link>
               </li>
             </ul>
