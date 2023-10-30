@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import './header.css';
 
 export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            Navbar
-          </Link>
+            <div className="logo">
+            <img src={require('../assets/images/logo_pizzaria.jpg')}></img>
+        </div>
+        
           <button
             className="navbar-toggler"
             type="button"
