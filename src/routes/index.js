@@ -3,8 +3,6 @@ import Body from "../components/Body";
 import Home from "../screens/Home";
 import Cardapio from "../screens/Cardapio";
 
-
-
 export default function RouterRoot() {
   return (
     <BrowserRouter>
@@ -12,8 +10,7 @@ export default function RouterRoot() {
         <Route element={<Body />} path="/">
           <Route element={<Home />} path="/" />
           <Route element={<Cardapio />} path="/cardapio" />
-          
-        </Route> 
+        </Route>
       </Routes>
     </BrowserRouter>
   );

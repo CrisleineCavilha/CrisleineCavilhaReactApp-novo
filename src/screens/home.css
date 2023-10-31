@@ -1,15 +1,12 @@
-.alerta{
-    text-align: center;
-    background-color: #fefefe;   
-    min-width: 200vh;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(25px);
-    color: #080808;
+.alerta {
+  text-align: center;
+  background-color: #fefefe;
+  /* min-width: 200vh; */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(25px);
+  color: #080808;
 }
-
-
-
